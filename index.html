@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta name="publisher" content="" />
+<meta name="copyright" content="Capital full" />
+<meta name="creation_Date" content="21/11/2018" />
+<meta name="expires" content="" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<title>Capital Full</title>
+<!--StyleSheet-->
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Javascript-->
+<script src="js/google.api.js" type="text/Javascript"></script>
+</head>
+
+<body>
+
+<div class="mainwrapper">
+<!-- sidebar menu area start -->
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu">
+                            <li class="active"><a href="index.html"><i class="fa fa-users"></i> <span>Customer</span></a></li>
+                            <li><a href="loans.html"><i class="fa fa-file"></i> <span>Loans</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar menu area end -->
+        <!-- main content area start -->
+        <div class="main-content">
+            <!-- header area start -->
+            <div class="header-area">
+                <div class="row align-items-center">
+                    <!-- nav and search button -->
+                    <div class="col-md-6 col-sm-8 clearfix">
+                        <div class="nav-btn float-left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="country-nav float-left">
+                            <ul>
+                            	<li><a href="#">Kenya</a></li>
+                            	<li><a href="#">Uganda</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 clearfix">
+                        <div class="user-profile float-right">
+                        	<div class="user-name">
+                            <h4 >Welcome Stacie!</h4>
+                            <a href="#">Log out</a>
+                        </div>
+                            <img class="avatar user-thumb" src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header area end -->
+
+            <div class="col-lg-12">
+                <div class="top-btn-area">
+                    <div class="row">
+                    	<div class="col-6 clearfix">
+                        <div class="filter-input float-left">
+                        	<select class="form-control" name="category" id="filterinput" onchange='filterText()'>
+						        <option value="all">Type</option>
+						        <option value="branch-1">Branch 1</option>
+						        <option value="branch-2">Branch 2</option>
+						        <option value="branch-3">Branch 3</option>
+						        <option value="branch-4">Branch 4</option>
+						      </select>
+                        </div>
+                    </div>
+                    	<div class="col-6 clearfix">
+                        <div class="add-btn float-right">
+                        	<a href="add-customer.html" class="btn btn-primary btn-block">Add Customer</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body customer-block">
+                    	<h4 class="header-title">Customer Details</h4>
+                    	<div class="table-responsive">
+                            <table class="customer-table">
+                                <tbody>
+                                    <tr class="heading-td">
+                                        <td>First Name</td>
+                                        <td>Last Name</td>
+                                        <td>Email Address</td>
+                                        <td>Phone Number</td>
+                                        <td>Branch</td>
+                                        <td>Loan Limit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 1</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 2</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 3</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 4</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 1</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 2</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 3</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Joe</td>
+                                        <td>Doe</td>
+                                        <td>joedoe@gmail.com</td>
+                                        <td>0722222222</td>
+                                        <td>Branch 4</td>
+                                        <td>40, 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>	
+</div>
+ 
+<!-- jQuery --> 
+<script src="js/jquery.js" type="text/Javascript"></script> 
+<script src="js/main.js" type="text/Javascript"></script> 
+<script>
+
+</script>
+</body>
+</html>
